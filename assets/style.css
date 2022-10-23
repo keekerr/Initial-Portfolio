@@ -1,0 +1,146 @@
+#main-container {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+#sidebar {
+	display: table-cell;
+	width: 15%;
+	vertical-align: top;
+	background-color: #A9BD93;
+    border-radius: 15px;
+}
+
+#sidebar a {
+	display: block;
+	padding: 0px;
+	color: rgba(255,255,255, 0.5);
+	margin: 0px 0 0 0;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: white !important;
+}
+
+#content {
+	display: table-cell;
+	width: 85%;
+	vertical-align: top;
+	padding: 10px 0 0 10px;
+    background-color: #C4A484;
+    border-radius: 15px;
+ }
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+}
+header {
+    padding: 0px;
+    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
+    background-color: #A9BD93;
+    color: antiquewhite;
+    border-radius: 15px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: antiquewhite;
+}
+header nav {
+    padding-top: 70px;
+    margin-right: 15px;
+    float: right;
+    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
+    font-size: 22px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+} 
+
+
+h2 {
+    display: inline-block;
+    font-size: 22px;
+    color: antiquewhite;
+
+}
+
+#first-app{
+    width: 300px;
+    border: 15px solid rgb(49, 27, 173);
+    padding: 50px;
+    
+}
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.box{
+    width: 200px;
+    border: 15px solid green;
+    padding: 25px;
+    margin: 20px;
+}
+
+/* .label {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    height: 20px;
+    width: 100px;
+    background-color: pink;
+
+    border: 2px solid red;
+    text-align: center;
+} */
+.about{
+    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
+    color: rgb(43, 39, 39);
+    font-size:xx-large;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 480;
+    border: 10px solid green;
+    padding: 10px;
+    margin-top: 200px;
+    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    
+}
+footer {
+    font-size:15px;
+    background-color: #A9BD93;
+    color:antiquewhite;
+    border-radius: 15px;
+}
