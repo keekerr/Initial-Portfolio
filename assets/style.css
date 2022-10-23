@@ -82,39 +82,14 @@ h2 {
 }
 
 #first-app{
-    width: 300px;
-    border: 15px solid rgb(49, 27, 173);
+    width: 1400px;
     padding: 50px;
-    
-}
-.work {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
-     
+    margin-left: 50px;
 }
 
-.box{
-    width: 200px;
-    border: 15px solid green;
-    padding: 25px;
-    margin: 20px;
-    display:flex;
-    flex-wrap: wrap;
-}
-
-/* .label {
-    position: absolute;
-    top: -10px;
-    left: 20px;
-    height: 20px;
-    width: 100px;
-    background-color: pink;
-
-    border: 2px solid red;
-    text-align: center;
-} */
 .about {
     font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
     color: antiquewhite;
@@ -146,3 +121,42 @@ footer {
     color:antiquewhite;
     border-radius: 15px;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.work {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1500px;
+    height: 700px;
+    padding-left: 80px;
+    align-items: center;
+    margin-left: 105px;
+}
+.work > section {
+    display: flex; 
+    flex-basis: calc(25% - 40px);  
+    justify-content: right;
+    flex-direction: column;
+}
+.work > section > section {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    justify-content: right;
+    
+}
+  
+.box { margin: 50px; }
+/* .box1 { background-color: red; } */
+/* .box2 { background-color: orange; }
+.box3 { background-color: rgb(95, 62, 95); }
+.box4 { background-color: grey; }
+.box5 { background-color: rgb(59, 2, 2); }
+.box6 { background-color: rgb(41, 51, 194); }
+.box7 { background-color: rgb(161, 23, 104); }
+.box8 { background-color: rgb(247, 204, 12); } */
