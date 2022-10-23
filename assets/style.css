@@ -32,6 +32,7 @@
 	padding: 10px 0 0 10px;
     background-color: #A9BD93;
     border-radius: 15px;
+    
  }
 
 html {
@@ -91,6 +92,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: 250px;
+     
 }
 
 .box{
@@ -98,6 +100,8 @@ h2 {
     border: 15px solid green;
     padding: 25px;
     margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 /* .label {
@@ -111,9 +115,9 @@ h2 {
     border: 2px solid red;
     text-align: center;
 } */
-.about{
+.about {
     font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
-    color: rgb(43, 39, 39);
+    color: antiquewhite;
     font-size:xx-large;
 }
 
@@ -123,11 +127,12 @@ h2 {
     align-items: center;
     margin-top: 50px;
     width: 480;
-    border: 10px solid green;
+    border: 5px solid rgb(165, 165, 165);
     padding: 10px;
     margin-top: 200px;
     font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
     font-size: xx-large;
+    border-radius: 15px;
 }
 
 footer {
@@ -135,9 +140,7 @@ footer {
     clear: both;
     font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
     text-align: center;
-        
-}
-footer {
+    width: 480;       
     font-size:15px;
     background-color: #A9BD93;
     color:antiquewhite;
