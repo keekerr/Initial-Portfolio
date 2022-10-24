@@ -1,157 +1,156 @@
 #main-container {
-	display: table;
-	width: 100%;
-	height: 100%;
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #a9bd93;
+  border-radius: 15px;
 }
 
 #sidebar {
-	display: table-cell;
-	width: 15%;
-	vertical-align: top;
-	background-color: #A9BD93;
-    border-radius: 15px;
+  display: table-cell;
+  width: 15%;
+  vertical-align: top;
+  background-color: #a9bd93;
+  border-radius: 15px;
 }
 
 #sidebar a {
-	display: block;
-	padding: 0px;
-	color: rgba(255,255,255, 0.5);
-	margin: 0px 0 0 0;
-	text-decoration: none;
+  display: block;
+  padding: 0px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0px 0 0 0;
+  text-decoration: none;
 }
 
 #sidebar a:hover {
-	background-color: rgba(255, 255, 255, 0.1);
-	color: white !important;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white !important;
 }
 
 #content {
-	display: table-cell;
-	width: 85%;
-	vertical-align: top;
-	padding: 10px 0 0 10px;
-    background-color: #A9BD93;
-    border-radius: 15px;
-    
- }
+  display: table-cell;
+  width: 85%;
+  vertical-align: top;
+  padding: 10px 0 0 10px;
+}
 
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	margin: 0;
-	height: 100%;
+  margin: 0;
+  height: 100%;
 }
 header {
-    padding: 0px;
-    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
-    background-color: #A9BD93;
-    color: antiquewhite;
-    border-radius: 15px;
+  padding: 0px;
+  font-family: "Avanta Garde", "Optima", Arial, sans-serif;
+  background-color: #a9bd93;
+  color: antiquewhite;
+  border-radius: 15px;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
-    color: antiquewhite;
+  display: inline-block;
+  font-size: 48px;
+  color: antiquewhite;
 }
 header nav {
-    padding-top: 70px;
-    margin-right: 15px;
-    float: right;
-    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
-    font-size: 22px;
+  padding-top: 70px;
+  margin-right: 15px;
+  float: right;
+  font-family: "Avanta Garde", "Optima", Arial, sans-serif;
+  font-size: 22px;
 }
 
 header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-} 
-
-
-h2 {
-    display: inline-block;
-    font-size: 22px;
-    color: antiquewhite;
-
+  display: inline-block;
+  margin-left: 25px;
 }
 
-#first-app{
-    width: 1400px;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
+h2 {
+  display: inline-block;
+  font-size: 22px;
+  color: antiquewhite;
+}
+
+#first-app {
+  width: 1400px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 220px;
 }
 
 .about {
-    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
-    color: antiquewhite;
-    font-size:xx-large;
+  font-family: "Avanta Garde", "Optima", Arial, sans-serif;
+  color: antiquewhite;
+  font-size: xx-large;
 }
 
-.resume{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    width: 480;
-    border: 5px solid rgb(165, 165, 165);
-    padding: 10px;
-    margin-top: 200px;
-    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
-    font-size: xx-large;
-    border-radius: 15px;
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 480;
+  border: 5px solid rgb(165, 165, 165);
+  padding: 10px;
+  margin-top: 200px;
+  font-family: "Avanta Garde", "Optima", Arial, sans-serif;
+  font-size: xx-large;
+  border-radius: 15px;
 }
 
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Avanta Garde', 'Optima', Arial, sans-serif;
-    text-align: center;
-    width: 480;       
-    font-size:15px;
-    background-color: #A9BD93;
-    color:antiquewhite;
-    border-radius: 15px;
+  padding: 30px;
+  clear: both;
+  font-family: "Avanta Garde", "Optima", Arial, sans-serif;
+  text-align: center;
+  width: 480;
+  font-size: 15px;
+  background-color: #a9bd93;
+  color: antiquewhite;
+  border-radius: 15px;
 }
-html, body {
-    height: 100%;
-    margin: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
 .work {
-    min-height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 1500px;
-    height: 700px;
-    padding-left: 80px;
-    align-items: center;
-    margin-left: 105px;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1500px;
+  height: 700px;
+  padding-left: 80px;
+  align-items: center;
+  margin-left: 275px;
 }
 .work > section {
-    display: flex; 
-    flex-basis: calc(25% - 40px);  
-    justify-content: right;
-    flex-direction: column;
+  display: flex;
+  flex-basis: calc(25% - 40px);
+  justify-content: right;
+  flex-direction: column;
 }
 .work > section > section {
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: row;
-    justify-content: right;
-    
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+  justify-content: right;
 }
-  
-.box { margin: 50px; }
+
+.box {
+  margin: 50px;
+}
 /* .box1 { background-color: red; } */
 /* .box2 { background-color: orange; }
 .box3 { background-color: rgb(95, 62, 95); }
@@ -160,3 +159,30 @@ html, body {
 .box6 { background-color: rgb(41, 51, 194); }
 .box7 { background-color: rgb(161, 23, 104); }
 .box8 { background-color: rgb(247, 204, 12); } */
+
+@media screen and (max-width: 768px) {
+    header,
+    nav {
+      flex-direction: column;
+      background-color: #a9bd93;
+    }
+
+
+    #sidebar {
+        flex-direction: column;
+        order: 1;
+    }
+
+    #about-me {
+        flex-direction: column;
+        order: 2;
+    }
+    #work {
+        flex-direction: column;
+        order: 3;
+    }
+    #resume {
+        flex-direction: column;
+        oredr: 4;
+    }
+}
