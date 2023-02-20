@@ -115,7 +115,7 @@ Examples of Code used to create responsive page elements.
 
 [Deployed Application](https://keekerr.github.io/Initial-Portfolio/)
 
-![Image of Deployed Application](assets\images\Capture.PNG)
+![Image of Deployed Application](https://github.com/keekerr/Initial-Portfolio/blob/main/assets/images/Capture.PNG?raw=true)
 
 ## Languages Used
 
